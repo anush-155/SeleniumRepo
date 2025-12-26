@@ -8,12 +8,7 @@ import org.testng.annotations.BeforeSuite;
 
 public class Basetest {
  protected WebDriver driver;
-	public static void main (String [] args) {
-		Basetest obj = new Basetest();
-		obj.openUrl();
-		obj.tearDown();
-		
-	}
+
 	
 @BeforeSuite
 public void openUrl() {
